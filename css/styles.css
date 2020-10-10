@@ -1,13 +1,13 @@
 body {
     overflow-x: hidden;
     font-family: 'Nunito', sans-serif;
-    color: bisque;
+    color: white;
     background: url(../img/neon-pizza-sign.png)center/cover fixed no-repeat;
 }
 
 /*BISQUE COLOR*/
 .info {
-    background: bisque;
+    background: white;
 }
 
 /*BLACK COLOR #000*/
