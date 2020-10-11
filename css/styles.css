@@ -5,7 +5,7 @@ body {
     background-color:white; 
 }
 
-/*BISQUE COLOR*/
+
 .info {
     background: white;
 }
@@ -25,7 +25,7 @@ body {
 }
 
 .info a:hover {
-    color: red;
+    color: grey;
 }
 /*END OF ICONS STYLES*/
 
@@ -43,8 +43,8 @@ body {
     height: calc(100vh - 94px);
 }
 .banner h1 {
-    border-top: 6px double bisque;
-    border-bottom: 6px double bisque;
+    border-top: 6px double white;
+    border-bottom: 6px double white;
     animation: fromLeft;
     animation-duration: 4s; 
     animation-delay: 1.125s;
@@ -71,12 +71,12 @@ body {
 .main-btn {
     color: #000;
     font-size: 2rem;
-    border: 2px solid bisque;
+    border: 2px solid white;
     transition: all 1.5s ease-in-out;
 
 }
 .main-btn:hover {
-    color: red;
+    color: grey;
     border: 2pt solid whitesmoke;
     background: #000;
 }
@@ -108,7 +108,7 @@ body {
     position: absolute;
     bottom: 0.555rem;
     left: 50%;
-    background: bisque;
+    background: white;
     border-radius: 10px;
     transition: all 2s ease;
     animation: fromBottom;
@@ -117,7 +117,7 @@ body {
 }
 
 .header-link:hover {
-    color: red;
+    color: grey;
 }
 
 @keyframes fromBottom {
@@ -157,10 +157,10 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
-    color: bisque;
+    color: white;
     font-size: 2rem;
-    border-top: 3px solid red;
-    border-bottom: 3px solid red;
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
     transition: 2s all ease;
     opacity: 0;
 }
@@ -170,25 +170,25 @@ body {
 }
 
 .item-link:hover {
-    color: red;
-    border: 3px solid red;
+    color: grey;
+    border: 3px solid grey;
     background: black;
     color: whitesmoke;
 }
 
 .item-container:hover {
-    outline: 10px solid bisque;
+    outline: 10px solid white;
     outline-offset: 0.8rem;
 }
 /* ##############MENU############ */
 
 #menu {
-    background: linear-gradient(rgba(255,255,255,0.455),rgba(255,255,255,0.455)),
-    url(../img/Roasted-Vegetable-Pizza.jpg)center/cover fixed no-repeat;
+    background-color: linear-gradient(rgba(255,255,255,0.455),rgba(255,255,255,0.455)),white
+    
 }
 
 .special {
-    border: 7px ridge red;
+    border: 7px ridge grey;
     position: relative;
 }
 
@@ -197,7 +197,7 @@ body {
     top: 0;
     right: 0%;
     background: black; 
-    color: bisque;
+    color: white;
 }
 
 .index-form {
