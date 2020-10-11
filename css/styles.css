@@ -209,3 +209,36 @@ body {
 }
 
 
+
+.flex-container{
+	
+	display: flex;
+	 flex-wrap: wrap;
+	 flex-flow: row wrap;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-around;
+  margin:10px;
+
+  
+}
+
+.gallery {
+  display: flex;
+  margin:10px;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border: 10px inset grey;
+   align-items: center;
+   padding: 20px;
+   flex-direction: column;
+
+ 
+}
+
+img {
+    height: 200px;
+    width: 300px;
+  }
+  
