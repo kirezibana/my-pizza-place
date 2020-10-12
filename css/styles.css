@@ -32,7 +32,7 @@ body {
 /*########HEADER#########*/
 #header {
     height: calc(100vh - 94px);
-    background: url(../img/set.jpeg);
+    background: url(../img/back.jpeg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
