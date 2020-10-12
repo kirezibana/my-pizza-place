@@ -1,10 +1,9 @@
 $(document).ready(function() {
-    //MAGNIFIC POPUP
+    
     $('.parent-container').magnificPopup({
-        delegate: 'a', // child items selector, by clicking on it popup will open
+        delegate: 'a', 
         type: 'image',
-        // other options
-        //galery
+       
         gallery:{enabled:true},
     });
     $('#myModal').on('shown.bs.modal', function () {
@@ -18,7 +17,7 @@ $(document).ready(function() {
 
 
 
-// getting values for pizza
+// getting values for pizza ordered
 function getValue() {
     var getPizza = document.getElementById("pizza");
     var pizza =getPizza.options[getPizza.selectedIndex].value;
